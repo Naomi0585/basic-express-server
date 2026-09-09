@@ -1,0 +1,31 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naomi0585/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Naomi0585/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/Naomi0585/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1",
+    "supertest": "^7.2.2"
+  }
+}
